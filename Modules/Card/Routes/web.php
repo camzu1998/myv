@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Modules\Card\Http\Controllers\Backend\CardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::prefix('card')->group(function() {
-    Route::get('/', 'CardController@index');
+Route::prefix('admin/')->name('backend.')->group(function () {
+    Route::resource('cards', CardController::class);
 });

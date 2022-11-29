@@ -33,7 +33,7 @@ class CardServiceProvider extends ServiceProvider
 
         // adding global middleware
         $kernel = $this->app->make('Illuminate\Contracts\Http\Kernel');
-        $kernel->pushMiddleware('Modules\Tag\Http\Middleware\GenerateMenus');
+        $kernel->pushMiddleware('Modules\Card\Http\Middleware\GenerateMenus');
 
         // register commands
         $this->registerCommands('\Modules\Tag\Console');
