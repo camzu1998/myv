@@ -6,7 +6,7 @@
 // Color system
 
  //$white:     #fff !default;
-// $gray-base: #3c4b64 !default;
+ //$gray-base: #3c4b64 !default;
  $gray-100:  #ebedef !default;
 // $gray-200:  #d8dbe0 !default;
 // $gray-300:  #c4c9d0 !default;
@@ -15,7 +15,7 @@
 // $gray-600:  #8a93a2 !default;
 // $gray-700:  #768192 !default;
  $gray-800:  #636f83 !default;
-// $gray-900:  #4f5d73 !default;
+ $gray-900:  #4f5d73 !default;
 // $black:     #000015 !default;
 
 // fusv-disable
@@ -1393,7 +1393,7 @@
 // $header-padding-x:              $spacer * .5 !default;
 // $header-brand-font-size:        $font-size-lg !default;
 // $header-color:                  $medium-emphasis !default;
- $header-bg:                     $gray-100 !default;
+ $header-bg:                     $gray-900 !default;
  $header-border-color:           $gray-800 !default;
 // $header-border-width:           1px !default;
 // $header-hover-color:            $high-emphasis !default;
@@ -1595,7 +1595,7 @@
 // $footer-min-height:    3rem !default;
 // $footer-padding-y:     $spacer * .5 !default;
 // $footer-padding-x:     $spacer !default;
- $footer-bg:            $gray-100 !default;
+ $footer-bg:            $gray-900 !default;
 // $footer-color:         $body-color !default;
 // $footer-border-width:  1px !default;
  $footer-border-color:  $gray-800 !default;

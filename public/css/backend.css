@@ -14127,7 +14127,7 @@ html:not([dir=rtl]) .callout-dark {
   min-height: 3rem;
   padding: 0.5rem 1rem;
   color: var(--cui-footer-color, rgba(44, 56, 74, 0.95));
-  background: var(--cui-footer-bg, #ebedef);
+  background: var(--cui-footer-bg, #4f5d73);
   border-top: var(--cui-footer-border-width, 1px) solid var(--cui-footer-border-color, #636f83);
 }
 
@@ -14154,7 +14154,7 @@ html:not([dir=rtl]) .callout-dark {
   justify-content: space-between;
   min-height: 4rem;
   padding: 0.5rem 0.5rem;
-  background: var(--cui-header-bg, #ebedef);
+  background: var(--cui-header-bg, #4f5d73);
   border-bottom: var(--cui-header-border-width, 1px) solid var(--cui-header-border-color, #636f83);
 }
 .header > .container,
